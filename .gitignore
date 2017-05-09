@@ -1,4 +1,4 @@
-.gradle
+/.gradle/
 /build/
 !gradle/wrapper/gradle-wrapper.jar
 
@@ -11,15 +11,22 @@
 .springBeans
 
 ### IntelliJ IDEA ###
-.idea
+/.idea/
 *.iws
 *.iml
 *.ipr
 
 ### NetBeans ###
 nbproject/private/
-build/
 nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+gradle/
+log/
+src/main/java/com/example/domain/
+src/main/java/com/example/service/
+src/main/java/com/example/util/
+src/main/java/com/example/web/
+src/main/resources/static/
+src/main/resources/templates/
